@@ -81,3 +81,28 @@ As soon as you launch the portfolio, you can on the about page which has the nav
 *Projects*: This page has details of my projects. Click on the github symbol beside any project heading to go to the github repository. 
 
 *Contact Us*: This is just a dummy form for contact Us created. 
+
+## Screenshots from the application
+
+### About
+![portfolio](./HomePage.png)
+
+### Experience
+
+![portfolio](./Experience.png)
+
+### Education
+![portfolio](./Education.png)
+
+### Skills
+
+![portfolio](./Skills.png)
+
+### Projects
+
+![portfolio](./Projects.png)
+
+### Contact Us
+
+![portfolio](./ContactUs.png)
+
