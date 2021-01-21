@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+
+@import './assets/sass/variables';
+@import './assets/sass/nav';
+@import './assets/sass/about';
+@import './assets/sass/footer';
+@import './assets/sass/experience';
+@import './assets/sass/education';
+@import './assets/sass/projects';
+@import './assets/sass/contact';
+@import './assets/sass/skills';

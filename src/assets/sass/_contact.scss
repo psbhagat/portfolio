@@ -1,0 +1,42 @@
+.contact-section {
+    img {
+        border-radius: 5rem;
+    }
+
+    h3 {
+        color: var(--color-main);
+        overflow-y: hidden;
+    }
+
+    label {
+        color: var(--color-main);
+        padding-top: 1rem;
+        font-weight: 500;
+    }
+
+    input, textarea {
+        border: 1px solid var(--color-black);
+    }
+
+    .btn-outline-dark {
+        border: 2px solid var(--color-light);
+        color: var(--color-dark);
+    }
+
+    .message-button {
+        padding: 2rem;
+    }
+
+    a:active, a:focus {
+        outline: 0;
+        border: none;
+      }
+
+    .btn:hover {
+        border: 2px solid var(--color-lightest);
+        background-color: var(--color-dark);
+        color: var(--color-lightest);
+        transform: translateY(-7px);
+    }
+}
+
