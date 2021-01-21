@@ -85,24 +85,24 @@ As soon as you launch the portfolio, you can on the about page which has the nav
 ## Screenshots from the application
 
 ### About
-![portfolio](./HomePage.png)
+![portfolio](./HomePage.PNG)
 
 ### Experience
 
-![portfolio](./Experience.png)
+![portfolio](./Experience.PNG)
 
 ### Education
-![portfolio](./Education.png)
+![portfolio](./Education.PNG)
 
 ### Skills
 
-![portfolio](./Skills.png)
+![portfolio](./Skills.PNG)
 
 ### Projects
 
-![portfolio](./Projects.png)
+![portfolio](./Projects.PNG)
 
 ### Contact Us
 
-![portfolio](./ContactUs.png)
+![portfolio](./ContactUs.PNG)
 
