@@ -1,0 +1,12 @@
+.skills-section {
+    height: 70vh;
+    padding: 10vh;
+    img {
+        max-height: 8rem;
+        margin: 1rem;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+}

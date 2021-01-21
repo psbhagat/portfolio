@@ -1,0 +1,48 @@
+.education-section {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/education.jpg );
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .card {
+        height: 35vh;
+    }
+
+    .card:hover {
+        box-shadow: 0px 10px 20px var(--color-lightest);
+
+        .score {
+            font-size: 1.2rem;
+        }
+    }
+
+    .card-header {
+        color: var(--color-dark);
+        font-weight: 600;
+        background-color: var(--color-lightest);
+        overflow-y: hidden;
+    }
+
+    .card-body {
+        overflow-y: hidden;
+    }
+
+    .card-title {
+        color: var(--color-light);
+        font-weight: 400;
+        font-size: 1rem;
+        overflow-y: hidden;
+    }
+
+    .far {
+        overflow-y: hidden;
+        font-size: .8rem;
+        color: var(--color-main);
+        padding-right: .4rem;
+    }
+
+    
+}
+
+

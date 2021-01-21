@@ -1,0 +1,51 @@
+.top-bar {
+    background-color: var(--color-main);
+    height: 2.8em;
+    padding: .5rem 0;
+    overflow-y: hidden;
+    font-size: 1rem;
+
+    a {
+        color: var(--color-white);
+        text-decoration: none;
+    }
+
+    .fas {
+        overflow-y: hidden;
+    }
+}
+
+.navbar-brand i {
+    color: var(--color-dark);
+    font-size: 2.5rem;
+}
+
+.navbar {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    background-color: var(--color-white);
+}
+
+.nav-item {
+    padding: 0.6rem;
+}
+
+.nav-link {
+    color: var(--color-black) !important;
+    border-bottom: 2px solid var(--color-white);
+}
+
+.nav-link:hover {
+    color: var(--color-dark) !important;
+    border-bottom: 2px solid var(--color-dark);
+    transform: translateY(-2px);
+}
+
+.active-link {
+    border-bottom: 2px solid var(--color-dark);
+}
+
+.navbar-toggler {
+    border: none;
+}

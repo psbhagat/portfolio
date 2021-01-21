@@ -1,0 +1,41 @@
+.about-section {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/about-cover.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+
+    h1 {
+        font-weight: 500;
+        padding: 0.5rem;
+    }
+
+    p {
+        font-weight: 300;
+        animation-name: blinkText;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+    }
+}
+
+.name-highlight {
+    background-color: var(--color-main);
+}
+
+.underline {
+    border-bottom: 5px solid var(--color-main);
+}
+
+
+@keyframes blinkText {
+    0% {
+        opacity: 0;
+        font-size: 0.5rem;
+    }
+
+    100% {
+        opacity: 1;
+        font-size: 1rem;
+    }
+}

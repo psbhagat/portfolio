@@ -1,0 +1,24 @@
+footer {
+    width: 100%;
+    background-color: var(--color-dark);
+    p {
+        font-size: 0.5rem;
+    }
+
+    a {
+        color: var(--color-white);
+        padding: .5rem;
+    }
+
+    a:hover {
+        color: var(--color-light);
+    }
+
+    h6 {
+        overflow-y: hidden;
+    }
+}
+
+.fab {
+    overflow-y: hidden;
+}

@@ -1,0 +1,34 @@
+.project {
+    height: 60vh;
+    margin: auto 0;
+    padding: 1.5rem;
+    overflow-x: hidden;
+
+    img {
+        height: 23vh;
+    }
+
+    span {
+        padding-left: .2rem;
+
+    }
+
+    .project-title {
+        color: var(--color-main);
+        overflow-y: hidden;
+
+        a {
+            color: var(--color-black);
+        }
+
+    }
+
+    p {
+        overflow-y: hidden;
+    }
+
+    .underline {
+        border-bottom: 2px solid var(--color-main);
+    }
+    
+}

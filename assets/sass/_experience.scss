@@ -1,0 +1,54 @@
+.experience-section {
+    height: 70vh;
+    .card {
+        margin: 2rem;
+        border: 3px solid var(--color-main);
+        animation-name: educationCardAnimation;
+        animation-duration: 5s;
+        animation-timing-function: ease-in;
+    }
+    
+    .card:hover {
+        background-color: var(--color-lightest);
+    }
+
+    .card-title {
+        color: var(--color-main);
+        overflow-y: hidden  ;
+    }
+    
+    .list-group-item {
+        color: var(--color-light)
+    }
+    
+    .far {
+        overflow-y: hidden;
+        font-size: .8rem;
+        color: var(--color-main);
+        padding-right: .4rem;
+    }
+
+    .card-point {
+        text-align: justify;
+        font-size: .9rem;
+        padding-bottom: 1rem;
+    }
+
+    
+}
+
+
+
+@keyframes educationCardAnimation {
+    0% {
+        border: 3px solid var(--color-main);
+    }
+
+    50% {
+        border: 3px solid var(--color-white);
+    }
+
+    100% {
+        border: 3px solid var(--color-main);
+    }
+}
